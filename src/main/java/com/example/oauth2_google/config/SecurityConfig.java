@@ -27,5 +27,7 @@ public class SecurityConfig {
                         .deleteCookies("JSESSIONID") // Eliminare i cookie
                 );
         return http.build();
+
+        
     }
 }
