@@ -26,8 +26,8 @@ public class SecurityConfig {
                         .invalidateHttpSession(true) // Invalidare la sessione
                         .deleteCookies("JSESSIONID") // Eliminare i cookie
                 );
-
-
         return http.build();
+
+
     }
 }
